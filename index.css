@@ -108,7 +108,7 @@ h1 span {
   white-space: nowrap;
 }
 .hero {
-  height: 200px;
+  height: 300px;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 255, 0.4),
