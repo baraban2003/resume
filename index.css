@@ -42,12 +42,12 @@ h1 {
 }
 .logo {
   display: block;
-  width: 17px;
-  height: 17px;
+  width: 24px;
+  height: 24px;
 
   background: url(./images/VB_Logo.svg);
   background-size: contain;
-  margin-right: 3px;
+  margin-right: 7px;
 }
 .stack {
   font-weight: 700;
