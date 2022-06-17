@@ -1,0 +1,173 @@
+body {
+  background-color: #f1f1f1;
+  color: #0000ff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+body,
+main,
+section {
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+.hero h2 {
+  display: none;
+}
+.logo {
+  display: block;
+  width: 17px;
+  height: 17px;
+
+  background: url(./images/VB_Logo.svg);
+  background-size: contain;
+  margin-right: 3px;
+}
+.stack {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.social-group {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.social-group li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socialIcons {
+  fill: #0000ff;
+
+  transition: background-color var(--transition-rule);
+}
+.socialIcons:hover {
+  fill: #0b0b7b;
+}
+
+h1 span {
+  font-size: medium;
+}
+.header {
+  padding-top: 10px;
+}
+.header-group {
+  margin: 0 0 10px 0;
+}
+.hero {
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.links h2 {
+  display: none;
+}
+.profile__description p {
+  margin: 10px 0 10px 0;
+}
+.list {
+  display: flex;
+  padding-left: 0;
+}
+.list-elem:not(:last-child) {
+  margin-right: 20px;
+}
+.list-elem {
+  background-color: #0000ff;
+  border-radius: 30px;
+}
+.list-elem a {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  white-space: nowrap;
+}
+.hero {
+  height: 200px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 255, 0.4),
+      rgba(0, 0, 255, 0.4)
+    ),
+    url(./images/blackplane_480.jpg);
+
+  padding: top;
+}
+.footer {
+  margin-top: 30px;
+}
+@media screen and (min-width: 400px) {
+  .hero {
+    height: 400px;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 255, 0.4),
+        rgba(0, 0, 255, 0.4)
+      ),
+      url(./images/blackplane_768.jpg);
+
+    padding: top;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .leftSide {
+    width: 50%;
+  }
+  h1 span {
+    font-size: 20px;
+  }
+  .header {
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    left: 5px;
+    bottom: 25px;
+  }
+  .hero {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background: #e1e1e1 url(../img/4.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 255, 0.4),
+        rgba(0, 0, 255, 0.4)
+      ),
+      url(./images/blackplane_max.jpg);
+
+    padding: top;
+  }
+}
