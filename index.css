@@ -1,7 +1,7 @@
 body {
   background-color: #f1f1f1;
   color: #0000ff;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -148,11 +148,7 @@ h1 span {
   .header {
     margin-bottom: 60px;
   }
-  .footer {
-    position: absolute;
-    left: 5px;
-    bottom: 25px;
-  }
+
   .hero {
     position: absolute;
     right: 0;
